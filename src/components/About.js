@@ -1,5 +1,3 @@
-// Recent Photo or Avatar
-// Short Biography
 import React from "react";
 
 function About() {
@@ -11,8 +9,8 @@ function About() {
       <hr />
       <img
         className="my-pic"
-        src={process.env.PUBLIC_URL + "/img/profile.jpg"}
-        alt="Emily Necciai Mayeski"
+        src={process.env.PUBLIC_URL + "/img/Profile.jpg"}
+        alt="Fergus Illman"
       />
       <p className="content is-italic mt-4">
         Hello, I'm Fergus. I love all things tech and am a bit of a nerd.
